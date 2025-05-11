@@ -1,33 +1,19 @@
-# .
+# Тестовое в Texerov
 
-This template should help get you started developing with Vue 3 in Vite.
+## Задание
 
-## Recommended IDE Setup
+> UX и a11y
+> SPA-приложение со страницей входа по email и паролю, но без использования UI-библиотек.
+> Продумать отправку email и пароля на сервер — достаточно замокать `fetch()`.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Установка зависимостей
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+npm i
 ```
 
-### Compile and Hot-Reload for Development
+Запуск dev сервера
 
-```sh
+```bash
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```

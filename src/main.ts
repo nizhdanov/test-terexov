@@ -1,6 +1,7 @@
-import './assets/main.css'
+import { createApp } from 'vue';
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import Login from './Login.vue';
 
-createApp(App).mount('#app')
+import './assets/main.css';
+
+createApp(Login).mount('#app');
