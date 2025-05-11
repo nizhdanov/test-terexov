@@ -18,3 +18,6 @@ npm i
 ```bash
 npm run dev
 ```
+
+### ToDo
+- избавиться от vee-validate
