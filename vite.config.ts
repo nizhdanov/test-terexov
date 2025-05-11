@@ -7,6 +7,7 @@ import tailwindAutoReference from 'vite-plugin-vue-tailwind-auto-reference';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/test-terexov',
   plugins: [
     vue(),
     vueDevTools(),
